@@ -1,0 +1,67 @@
+#meanwhile-virginia {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  color: #6699ff;
+  margin: 0; 
+}
+
+.top-banner {
+  padding: 20px;
+  position: sticky;
+  background: white;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.nav-links {
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 10px; 
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6699ff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ffcc00; /* highlight on hover */
+}
+
+.hero-header {
+  height: 600px; /* adjust height */
+  background-image: url("images/grad-photo1.jpg");
+  background-size: cover;      /* fills the area */
+  background-position: center; /* centers image */
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */
+
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
